@@ -10,5 +10,8 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @Builder
 public class ChatRequestDTO {
+
+    private Long id;
+
     private String message;
 }
